@@ -111,7 +111,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if uid == ADMIN_ID:
         await update.message.reply_text("👑 ADMIN PANEL", reply_markup=admin_menu())
     else:
-        await update.message.reply_text("🤖 BOT TÀI CHÍNH TỰ ĐỘNG", reply_markup=user_menu())
+        await update.message.reply_text("🤖 OKVIP BOT KM VIP", reply_markup=user_menu())
 
 # ================= CALLBACK =================
 
